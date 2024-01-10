@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.main-container{
+    padding: 1em 7em ;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+ul li a {
+    text-decoration: none;
+    color: #242E52;
+    font-size: 1rem;
+}
+ul li a:hover {
+    color: #F3613C;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.hambuger {
+    cursor: pointer;
+    display: none;
+}
+.bars {
+    height: 4px;
+    width: 30px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: #000;
+    display: block;
+}
+.btn {
+    border: none;
+    border-radius: 50px;
+    background-color: #F3613C;
+    color: whitesmoke;
+    font-size: 0.8rem;
+    padding: 1em 2.5rem;
+    box-shadow: 0px 8px 8px 0px #f39f8a;
+}
+.btn:hover {
+    border: 1px solid #555;
+    background-color: #ffff;
+    color: #F3613C;
+    box-shadow: none;
+}
+.btn2 {
+    border: none;
+    border-radius: 50px;
+    background-color: #F3613C;
+    color: whitesmoke;
+    font-size: 0.8rem;
+    padding: 1em 2.5rem;
+    box-shadow: 0px 8px 8px 0px #f39f8a;
+}
+.btn2:hover {
+    border: 1px solid #555;
+    background-color: #ffff;
+    color: #F3613C;
+    box-shadow: none;
+}
+.write-up h1 {
+    font-size: 3.5rem;
+    color: #242E52;
+}
+.write-up p {
+    width: 68%;
+    color: #9FA0A2;
+    font-size: 1.2rem;
+    margin-bottom: 2.2em;
+}
+
+.sub-container {  
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 5rem;
+}
+.middle-container {
+    margin-top: 5rem;
+    display: flex;
+    gap: 5rem;
+}
+.inner-writeup3 {
+    display: flex;
+    gap: 2rem;
+}
+.write-up2 h2 {
+    font-size: 2.5em;
+    color: #242E52;
+}
+.write-up2 p {
+    color: #9FA0A2;
+    font-size: 1.2rem;
+    width: 68%;
+    margin-top: 2rem;
+}
+.inner-writeup3 p {
+    width: 68%;
+    color: #9FA0A2;
+    font-size: 1.2rem;
+    margin-bottom: 2.2em;
+}
+.inner-writeup3 h4 {
+    color: #242E52;
+    font-size: 1.2rem;
+}
+.btn-2 {
+    border: none;
+    border-radius: 20px;
+    background-color: #F3613C;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    padding: 8px 24px;
+}
+.btn-2:hover {
+    border: 1px solid #F3613C;
+    background-color: #ffff;
+    color: #F3613C;
+    box-shadow: none;
+}
+.head-1 {
+    color: #242E52;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 3rem 0rem;
+}
+.slide-writeup img {
+    width: 70px;
+    position: relative;
+    bottom: 2.5em;
+}
+
+.slide-writeup {
+    background-color: #FAFAFA;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slide-writeup h4, p {
+    margin-bottom: 1em;
+}
+.slide-writeup h4 {
+    text-align: center;
+    font-size: 1rem;
+    color: #242E52;
+}
+.slide-writeup p {
+    text-align: center;
+    font-size: 1rem;
+    color: #9FA0A2;
+}
+.slide-container {
+    display: flex;
+    gap: 2rem;
+}
+.btn3 {
+    border: none;
+    border-radius: 50px;
+    background-color: #F3613C;
+    color: whitesmoke;
+    font-size: 0.8rem;
+    padding: 1em 2.5rem;
+    box-shadow: 0px 8px 8px 0px #f39f8a;
+}
+.btn3:hover {
+    border: 1px solid #555;
+    background-color: #ffff;
+    color: #F3613C;
+    box-shadow: none;
+}
+.footer-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.btn4 {
+    border: none;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    color: #F3613C;
+    font-size: 0.8rem;
+    padding: 1em 2.5rem;
+}
+.btn4:hover {
+    border: 1px solid #ffff;
+    background-color: transparent;
+    color: #ffff;
+    box-shadow: none;
+}
+.orange-container {
+    background-color: #F3613C;
+    padding: 2rem;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* width: 100%; */
+}
+.orange-container h1 {
+    font-size: 2.5rem;
+    color: white;
+    width: 78%;
+}
+.mainfooter-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1E1E26;
+    padding: 4rem 2rem;
+}
+.first-list {
+    list-style-type: none;
+}
+
+.first-list li {
+    margin-bottom: 1rem;
+    
+}
+.first-list li a {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1rem;
+}
+.icon {
+    color: #ffff;
+    font-size: 1.5em;
+    margin-top: 4.5rem;
+}
+.btn5 {
+    border: none;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    color: #9FA0A2;
+    font-size: 0.75rem;
+    padding: 1em 2.5rem;
+}
+.btn6 {
+    border: none;
+    border-radius: 50px;
+    background-color: #F3613C;
+    color: #ffff;
+    font-size: 0.8rem;
+    padding: 1em 1.5rem;
+}
+.btn6:hover {
+    border: 1px solid #ffff;
+    background-color: transparent;
+    color: #ffff;
+    box-shadow: none;
+}
+.copy-content {
+    font-size: 0.8rem;
+    color: #9FA0A2;
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+.list {
+    display: flex;
+    gap: 10rem;
+}
+@media screen and (max-width: 767px) {
+    
+    ul {
+    flex-direction: column;
+    background-color: #eee;
+    padding: 2em;
+    height: 50%;
+    width: 100%;
+    gap: 1em;
+    position: absolute;
+    inset: 2em 0em 0em 25em;
+    display: none;
+    }
+    .btn {
+        display: none;
+    }
+    .hambuger {
+        display: block;
+    }
+    .main-container{
+        padding: 0.5em 0.75em ;
+    }
+    .graph-container svg {
+        padding: 1rem 1rem;
+        
+    }
+    .sub-container {  
+        flex-direction: column-reverse;
+        gap: 0rem;
+        margin-top: 5rem;
+    }
+    .btn2-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .middle-container {
+        margin-top: 2rem;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .inner-writeup3 {
+        gap: 0rem;
+    }
+    .inner-writeup3 p {
+        width: 100%;
+        color: #9FA0A2;
+        font-size: 1.2rem;
+        margin-bottom: 2.2em;
+    }
+    .text-container h4 {
+        margin-bottom: 1.3rem;
+        background-color: #FFF0EB;
+        padding: 0.5rem 1.5rem;
+        
+    }
+    .btn-2 {
+        font-size: 1em;
+        position: relative;
+        left: 1rem;
+    }
+    .text-container h4 {
+        font-size: 1em;
+    }
+    .text-container p {
+        font-size: 1em;
+        word-spacing: 1px;
+        line-height: 1.5em;
+        width: 100%;
+    }
+    .write-up h1 {
+        font-size: 2.1rem;
+        width: 100%;
+        text-align: center;
+        
+    }
+    .write-up p {
+        width: 100%;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .write-up2 h2 {
+        width: 100%;
+        font-size: 1.8em;
+        text-align: center;
+    }
+    .write-up2 p {
+        text-align: center;
+        font-size: 1rem;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .slide-writeup {
+        padding: 1rem 2rem;
+        width: 100%;
+    }
+    .orange-container h1 {
+        font-size: 2.3rem;
+        text-align: center;
+        width: 95%;
+        margin-bottom: 0.8em;
+    }
+    .orange-container {
+        flex-direction: column;
+    }
+    .mainfooter-container {
+        flex-direction: column-reverse;
+        padding: 7rem 3rem;
+    }
+    .icon {
+        font-size: 2.6em;
+        margin-top: 2rem;
+    }
+    .btn5 {
+        border: none;
+        border-radius: 50px;
+        background-color: whitesmoke;
+        color: #9FA0A2;
+        font-size: 0.75rem;
+        padding: 1.5em 2.7rem;
+    }
+    .btn6 {
+        font-size: 0.8rem;
+        padding: 1.2em 1.8rem;
+    }
+    .btn5-container {
+        position: relative;
+        bottom: 2rem;
+    }
+    .copy-content {
+        position: relative;
+        top: 27rem;
+        margin: 0em 0em 3em 2.5em;
+    }
+    .list {
+        display: flex;
+        gap: 5rem;
+    }
+    .logo-container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5rem;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .main-container{
+    padding: 1em 1.5em ;
+}
+.sub-container {  
+    gap: 3rem;
+}
+}
